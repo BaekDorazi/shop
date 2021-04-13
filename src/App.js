@@ -19,6 +19,18 @@ function App() {
             <div class="text">Hello World</div>
           </div>
         </div>
+
+        <div class="hover01 column">
+          <figure className="figure-1">
+            <img src={logo} />
+          </figure>
+        </div>
+
+        <div class="column">
+          <figure className="figure-2">
+            <img src={logo} />
+          </figure>
+        </div>
       </header>
     </div>
   );
