@@ -306,7 +306,35 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDivider',
     className: 'm-2'
-  }
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['Product']
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'RING',
+    to: '/theme/colors',
+    icon: 'cil-drop',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'BRACELET',
+    to: '/theme/typography',
+    icon: 'cil-pencil',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'NECKLACE',
+    to: '/theme/typography',
+    icon: 'cil-pencil',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'ETC',
+    to: '/theme/typography',
+    icon: 'cil-pencil',
+  },
 ]
 
 export default _nav
